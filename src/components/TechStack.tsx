@@ -2,7 +2,7 @@ import { SiReact, SiTypescript, SiJavascript, SiHtml5, SiCss3, SiTailwindcss, Si
 
 export default function TechStack() {
   return (
-    <section className="mt-20 mx-auto max-w-4xl px-4">
+    <section id='tech' className="mt-20 mx-auto max-w-4xl px-4">
       <h2 className="text-center font-bold text-3xl text-orange-400 mb-8">Tech Stack</h2>
       
       {/* Grid flexible que pasa a fila en pantallas md+ */}

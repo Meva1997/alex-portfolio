@@ -3,7 +3,7 @@ import { SiGithub, SiLinkedin } from "react-icons/si";
 export default function Footer() {
   return (
     <>
-      <div className="flex flex-col md:flex-row justify-center items-center gap-4 px-6 py-4 border-b border-gray-700">
+      <div id="contact" className="flex flex-col md:flex-row justify-center items-center gap-4 px-6 py-4 border-b border-gray-700">
         <p>Connect with me:</p>
         <ul className="flex space-x-6 md:text-2xl">
           <li>
