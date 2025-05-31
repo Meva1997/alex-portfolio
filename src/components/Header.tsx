@@ -38,18 +38,19 @@ export default function Header() {
               <li><a href="#about" onClick={toggleMenu} className="hover:text-orange-400 font-bold">About Me</a></li>
               <li><a href="#tech" onClick={toggleMenu} className="hover:text-orange-400 font-bold">Tech Stack</a></li>
               <li><a href="#projects" onClick={toggleMenu} className="hover:text-orange-400 font-bold">Projects</a></li>
-              <li><a href="#certifications" onClick={toggleMenu} className="hover:text-orange-400 font-bold">Certifications</a></li>
+              <li><a href="#contact" onClick={toggleMenu} className="hover:text-orange-400 font-bold">Contact</a></li>
             </ul>
           </nav>
         )}
       </header>
 
       {/* Hero */}
+      
       <section id="about" className="flex flex-col items-center justify-center bg-gray-900 text-white text-center rounded-lg shadow-2xl p-5 mt-10 w-11/12 md:w-2/3 mx-auto"> 
         <h1  className="text-lg text-center font-black">Hi, I'm Alejandro Medina</h1>
         <p className="text-4xl mt-5 text-orange-400">Creative Front-End Developer</p>
         <p className="mt-5 text-balance font-bold">
-          I’m from Jalisco, Mexico, with U.S. citizenship. I build responsive, accessible, and high-performance web apps using React, TypeScript, and TailwindCSS. I'm passionate about clean code, UX, and modern frontend practices. Open to remote roles and relocation.
+          I'm from Jalisco, Mexico, with U.S. citizenship. I build responsive, accessible, and high-performance web apps using React, TypeScript, and TailwindCSS. I'm passionate about clean code, UX, and modern frontend practices. Open to remote roles and relocation.
         </p>
       </section>
 
