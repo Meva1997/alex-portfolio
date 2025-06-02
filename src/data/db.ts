@@ -14,13 +14,19 @@ export const projects: Project[] = [
     link: "https://meva1997.github.io/control-gastos-contextapi-alex/"
   },
   {
+    title: "Weather App with React, OpenWeather API, TypeScript and Zod",
+    image: "/weather-app.png",
+    description: "Check current weather conditions using OpenWeather API.",
+    link: "https://resonant-pothos-7d5d06.netlify.app/"
+  },
+  {
     title: "React Calorie Tracker",
     image: "/calorie-tracker.png",
     description: "Log daily calorie intake and burned calories with React.",
     link: "https://meva1997.github.io/calorie-tracker-alex/"
   },
   {
-    title: "React Tip Calculator ",
+    title: "React Tip Calculator",
     image: "/tip-calculator.png",
     description: "Calculate tips and total cost using useReducer in React.",
     link: "https://meva1997.github.io/calculadora-propinas-alex/"
