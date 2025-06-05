@@ -2,6 +2,12 @@ import type { Project } from "../types";
 
 export const projects: Project[] = [
   {
+    title: "Cocktail web app with Zustand, API and OpenRouter AI",
+    image: "/cocktail-zustand.png",
+    description: "Cocktail recipe search app built with React, TypeScript, and Zustand. Integrates TheCocktailDB and OpenRouter for AI-generated suggestions. Responsive design with TailwindCSS and serverless functions via Netlify.",
+    link: "https://cocktail-drinks-alex.netlify.app/"
+  },
+  {
     title: "Patient Management System with React Hook Form, Zustand, and Tailwind.",
     image: "/patient-administrator.png",
     description: "Manage patient appointments.",
