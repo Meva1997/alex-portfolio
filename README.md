@@ -1,54 +1,37 @@
-# React + TypeScript + Vite
+# Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio repository! This project showcases my professional journey, skills, and projects as a developer. Here, you will find information about my background, the technologies I work with, and some of the key projects I have built or contributed to.
 
-Currently, two official plugins are available:
+## About Me
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Hi, I'm Alejandro Medina, a passionate Front end developer focused on creating impactful solutions through code. My portfolio is a reflection of my dedication to continuous learning and delivering quality work.
 
-## Expanding the ESLint configuration
+## Technologies
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- HTML, CSS, JavaScript, TypeScript
+- React
+- Git & GitHub for version control
+- Tailwind CSS 
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Projects
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+All of my projects are available in my GitHub repositories. Below are a few highlights—feel free to browse [my GitHub profile](https://github.com/Meva1997?tab=repositories) to discover more!
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Featured Projects
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+#### [alex-portfolio](https://github.com/Meva1997/alex-portfolio)
+- **Description**: My personal portfolio website, showcasing my skills, experience, and selected works.
+- **Tech Stack**: React, TypeScript, Tailwind CSS, GitHub Pages
+- **Live Demo**: https://meva1997.github.io/alex-portfolio/
+
+## Contribution
+
+**Please note:** This repository is intended as a personal portfolio and is not open for external contributions. If you have any feedback or questions, feel free to reach out, but pull requests and issues from others will not be accepted.
+
+## Contact
+
+- **Email**: alexmedval2@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/alejandro-medina-web-developer/
+- **Portfolio Website**: https://meva1997.github.io/alex-portfolio/
+
+Thank you for visiting my portfolio!
